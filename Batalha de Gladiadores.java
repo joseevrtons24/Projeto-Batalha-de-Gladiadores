@@ -66,7 +66,7 @@ public class Batalha {
                 
                 // Extra: gladiador mais fraco pode aplicar sequência de golpes
                 if (g2EhMaisFraco == true) {
-                    System.out.println("🔥 " + g2.nome + " (Mais Fraco) aplica SEQUÊNCIA DE GOLPES!");
+                    System.out.println(" " + g2.nome + " (Mais Fraco) aplica SEQUÊNCIA DE GOLPES!");
                     // O golpe mais fraco derruba, aplicando dano fixo de 3 golpes
                     g1.receberAtaque(g2.armaAtual, true); 
                 } else {
